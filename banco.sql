@@ -66,7 +66,7 @@ CREATE TABLE IF NOT EXISTS `Campeonato`.`pontuacao` (
   `campeonato_codigo` INT NOT NULL,
   `times_codigo` INT NOT NULL,
   `pontuacao` INT NULL,
-  PRIMARY KEY (`campeonato_codigo`, `times_codigo`),
+  PRIMARY KEY (`times_codigo`),
   INDEX `fk_campeonato_has_times_times1_idx` (`times_codigo` ASC),
   INDEX `fk_campeonato_has_times_campeonato_idx` (`campeonato_codigo` ASC),
   CONSTRAINT `fk_campeonato_has_times_campeonato`
