@@ -46,7 +46,7 @@ ENGINE = InnoDB;
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `Campeonato`.`jogadores` (
   `codigo` INT NOT NULL AUTO_INCREMENT,
-  `nome` VARCHAR(45) NULL,
+  `nome` VARCHAR(50) NULL,
   `camisa` INT NULL,
   `times_codigo` INT NOT NULL,
   PRIMARY KEY (`codigo`),
