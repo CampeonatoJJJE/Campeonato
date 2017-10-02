@@ -10,7 +10,7 @@ Eis as perguntas que vocês, meus amores devem responder <3
 
 3 – Selecione o nome de algum time e o nome de seus jogadores que começam com a letra “B”.
 
-4 – Some a quantidade de times com pontuação maior que 10 e exiba o nome deles.
+4 – Some a quantidade de times com pontuação maior que 10.
 
 5 – Verifique o nome do campeonato que o jogador de sua escolha está jogando
 .
